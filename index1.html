@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<title align="center">Registraion</title>
+<body bgcolor="dodgerblue">
+<h1 align="center" >Student Registration Form</h1>
+<h3 align="center">Please fill the below details correctly</h3>
+
+<form align="center"action="/action_page.php">
+ <label for="fname">First name:</label><br>
+  <input type="text" id="fname"
+  name="fname"><br><br>
+ <label for="lname">Last name:</label><br>
+  <input type="text" id="lname"
+  name="lname"><br><br>
+ <label for="email">Student Email ID:</label><br>
+  <input type="email" id="email"
+  name="email"><br><br> 
+ <label for="regno">Registation Number:</label><br>
+  <input type="text" id="regno"
+  name="regno"><br><br>
+ <label for="rollno">Roll Number:</label><br>
+  <input type="text" id="rollno"
+  name="rollno"><br><br>
+<label for="subjects">Choose the subjects to register</label><br>
+<select id ="subjects"name="subjects"size="2"multiple>
+    <option value="dn">Data Networks</option>
+    <option value="dnl">Data Networks Lab</option>
+    <option value="dsp">Digital Signal Processing</option>
+    <option value="erts">Embedded and Real Time Operating Systems</option>
+    <option value="itd">Information theory and Coding</option>
+    <option value="csl">Communication Systems Lab</option>
+        <option value="wt">Web Technologies</option>
+    <option value="vlsi">LVLSI</option>
+  </select><br><br>
+ <input type="submit"value="submit">
+ <input type="reset">
+</form>
+</body>
+</html>
